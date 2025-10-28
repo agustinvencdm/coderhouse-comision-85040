@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width:100px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Orbitron", sans-serif;
+}
+
+li{
+    display: inline;
+    margin: 10px;
+}
+
+.header{
+    background-color:rgb(0, 0, 0);
+}
+
+.redes{
+    color: black;
+}
+
+footer{
+    background-color: green
+}
+
+main{
+    background-color: green;
+}
+
+img{
+    width: 400px;
+    margin: 30px;
+}
+
+.xbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ig{
+    width: 40px;
+    margin: 0px;
+}
+
+.face{
+    width: 40px;
+    margin: 0px;
+}
+
+.x{
+    width: 40px;
+    margin: 0px;
+}
+
+p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+}
+
+.subtitulo{
+    font-size: 40px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.backimg{
+    background-image:url(../assets/ce13dda8-1f94-423c-a216-01bc39922a62.jpg);
+}
+
+.sombreado{
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    transition: transform 0.5s ease;
+}
+
+.movimiento:hover{
+    transform: translateY(-5px);
+}
+
+
+
+
+
+
+
+
+
