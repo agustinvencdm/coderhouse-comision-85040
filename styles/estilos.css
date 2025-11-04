@@ -1,100 +1,105 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-.logo{
-    width:100px;
-    margin: 0px;
+/*Header*/
+
+.logo-principal {
+    width: 150px;
+    margin: 0;
 }
 
-a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+a {
     font-family: "Orbitron", sans-serif;
 }
 
-li{
-    display: inline;
-    margin: 10px;
+
+.header {
+    background-color: rgb(0, 0, 0);
 }
 
-.header{
-    background-color:rgb(0, 0, 0);
-}
+/*pagina de inicio*/
 
-.redes{
-    color: black;
-}
-
-footer{
-    background-color: green
-}
-
-main{
+.historia {
     background-color: green;
 }
 
-img{
+img {
     width: 400px;
     margin: 30px;
 }
 
-.xbox{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.ig{
-    width: 40px;
-    margin: 0px;
-}
-
-.face{
-    width: 40px;
-    margin: 0px;
-}
-
-.x{
-    width: 40px;
-    margin: 0px;
-}
-
-p{
+.texto{
     font-family: "DM Sans", sans-serif;
     font-size: 25px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
-.subtitulo{
+/*footer de mi sitio*/
+
+footer {
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+    display: grid;
+    grid-template-areas:
+        "derechos"
+        "desarrollador"
+        "redes";
+    grid-template-columns: 1fr ;
+    align-items: center;
+    justify-items: center;
+}
+
+.derechos {
+    text-align: center;
+    grid-area: derechos;
+    font-size: 30px;
+    padding: 10px 0px;
+}
+
+.desarrollador {
+    text-align: center;
+    grid-area: desarrollador;
+    font-size: 30px;
+    padding: 10px 0px;
+}
+
+.redes-sociales {
+    grid-area: redes;
+    font-size: 30px;
+    padding: 10px 0px;
+    list-style: none;
+}
+
+.redes-sociales li a img {
+    width: 45px;
+}
+
+
+.subtitulo {
     font-size: 40px;
     font-family: "DM Sans", sans-serif;
 }
 
-.backimg{
-    background-image:url(../assets/ce13dda8-1f94-423c-a216-01bc39922a62.jpg);
+.backimg {
+    background-image: url(../assets/ce13dda8-1f94-423c-a216-01bc39922a62.jpg);
 }
 
-.sombreado{
+.sombreado {
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
 
-.imagenes{
+.imagenes {
     display: flex;
     justify-content: center;
     transition: transform 0.5s ease;
 }
 
-.movimiento:hover{
+.movimiento:hover {
     transform: translateY(-5px);
 }
-
-
-
-
-
-
-
-
-
