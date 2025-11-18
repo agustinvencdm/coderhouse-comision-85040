@@ -1,0 +1,37 @@
+@use "variables"as v;
+
+.footerprincipal {
+    background: #010d01;
+    background: linear-gradient(90deg, rgba(1, 13, 1, 1) 0%, rgba(98, 184, 6, 1) 50%, rgba(2, 15, 2, 1) 100%);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.derechos {
+    text-align: v.$aling;
+}
+
+.desarrollador {
+    text-align: v.$aling;
+}
+
+.redes {
+    width: v.$width;
+    margin: v.$margin;
+    transition: transform 0.3s ease;
+}
+
+.redes:hover {
+    transform: scale(1.2);
+}
+
+.conjuntoredes {
+    text-align: v.$aling;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
