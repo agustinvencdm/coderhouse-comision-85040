@@ -1,39 +1,42 @@
 @use "variables"as v;
 
-.footerprincipal {
-    background: #010d01;
-    background: linear-gradient(90deg, rgba(1, 13, 1, 1) 0%, rgba(98, 184, 6, 1) 50%, rgba(2, 15, 2, 1) 100%);
-    width: 100%;
-    margin: 0;
-    padding: 20px 0;
-}
+// FOOTER
+.xbox-footer {
+    background-color: v.$bg-color;
+    color: v.$text-color;
+    padding: 20px 30px;
+    font-family: v.$font;
+    text-align: center;
 
-.derechos {
-    text-align: v.$aling;
-}
+    .seguinos {
+        h2 {
+            margin-bottom: 15px;
+        }
 
-.desarrollador {
-    text-align: v.$aling;
-}
+        .iconos {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 50px;
+            img {
+                height: 35px;
+            }
+            :hover{
+                transform: translateY(-3px);
+            }
+        }
+    }
 
-.redes {
-    width: v.$width;
-    margin: v.$margin;
-    transition: transform 0.3s ease;
-}
-
-.redes:hover {
-    transform: scale(1.2);
-}
-
-.conjuntoredes {
-    text-align: v.$aling;
-    ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
+    .logo {
+        img {
+            width: 200px;
+        }
+    }
+    .derechos{
+        width: 100%;
+        h3{
+            font-size: 0.9rem;
+        }
     }
 }
-
-
-

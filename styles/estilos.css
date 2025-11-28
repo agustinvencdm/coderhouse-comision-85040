@@ -26,6 +26,7 @@
   font-size: 1.5em;
   text-align: center;
   font-family: "DM Sans", sans-serif;
+  padding: 10px;
 }
 
 a {
@@ -37,39 +38,37 @@ a {
   width: 130px;
 }
 
-.footerprincipal {
-  background: #010d01;
-  background: linear-gradient(90deg, rgb(1, 13, 1) 0%, rgb(98, 184, 6) 50%, rgb(2, 15, 2) 100%);
+.xbox-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.xbox-footer .seguinos h2 {
+  margin-bottom: 15px;
+}
+.xbox-footer .seguinos .iconos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+.xbox-footer .seguinos .iconos img {
+  height: 35px;
+}
+.xbox-footer .seguinos .iconos :hover {
+  transform: translateY(-3px);
+}
+.xbox-footer .logo img {
+  width: 200px;
+}
+.xbox-footer .derechos {
   width: 100%;
-  margin: 0;
-  padding: 20px 0;
 }
-
-.derechos {
-  text-align: center;
-}
-
-.desarrollador {
-  text-align: center;
-}
-
-.redes {
-  width: 40px;
-  margin: 0px;
-  transition: transform 0.3s ease;
-}
-
-.redes:hover {
-  transform: scale(1.2);
-}
-
-.conjuntoredes {
-  text-align: center;
-}
-.conjuntoredes ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.xbox-footer .derechos h3 {
+  font-size: 0.9rem;
 }
 
 .consolas {
