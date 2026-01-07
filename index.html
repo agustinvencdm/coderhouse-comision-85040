@@ -8,7 +8,7 @@
   <title>Xbox</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="./styles/estilos.css">
+  <link rel="stylesheet" href="styles/estilos.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
@@ -17,10 +17,12 @@
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
     rel="stylesheet">
-    <meta name="description" content="Información completa sobre Xbox: consolas, servicios y catálogo de juegos.">
-    <meta name="keywords" content="xbox, xbox series x, xbox series s, game pass, juegos xbox, consolas xbox, xbox argentina, microsoft xbox, novedades xbox, servicios xbox">
-    <meta name="author" content="Agustin Ventrice">
-    <meta property="og:image" content="https://raw.githubusercontent.com/agustinvencdm/coderhouse-comision-85040/refs/heads/main/assets/Xbox-Logo.wine.png">
+  <meta name="description" content="Información completa sobre Xbox: consolas, servicios y catálogo de juegos.">
+  <meta name="keywords"
+    content="xbox, xbox series x, xbox series s, game pass, juegos xbox, consolas xbox, xbox argentina, microsoft xbox, novedades xbox, servicios xbox">
+  <meta name="author" content="Agustin Ventrice">
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/agustinvencdm/coderhouse-comision-85040/refs/heads/main/assets/Xbox-Logo.wine.png">
 </head>
 
 <body>
@@ -54,9 +56,12 @@
             </li>
 
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          <form class="d-flex flex-column" role="search">
+            <div class="d-flex">
+              <input id="buscador" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </div>
+            <span id="mensaje-busqueda"></span>
           </form>
         </div>
       </div>
@@ -74,7 +79,8 @@
         <img class="imagen4"
           src="./assets/xbox-raises-prices-on-consoles-games-and-controllers-v0-N7AXZZnrstu2ksbWQAyoG_klpc1C_WMEhlpOoXp-qtU.webp">
       </div>
-      <p class="texto">Xbox es una marca de videojuegos creada y desarrollada por Microsoft. Fue lanzada en el año 2001
+      <p id="contenido" class="texto">Xbox es una marca de videojuegos creada y desarrollada por Microsoft. Fue lanzada
+        en el año 2001
         con la llegada
         de su primera consola, la Xbox original, marcando la entrada de Microsoft en el mercado de los videojuegos. En
         2005, Microsoft lanzó la Xbox 360, una consola que marcó una época dorada para la empresa. Con un diseño más
@@ -91,36 +97,42 @@
 
         Hoy en día, Xbox no solo representa una consola, sino un ecosistema completo de entretenimiento digital, que
         abarca consolas, computadoras, juegos en la nube, accesorios, y una comunidad global de millones de jugadores.
-        Su visión es ofrecer a los usuarios la libertad de jugar lo que quieran, donde quieran y como quieran, sin importar
-        el dispositivo. En conjunto, este ecosistema busca que tu biblioteca de juegos, tus progresos y tus amigos te acompañen en cualquier dispositivo compatible, manteniendo una experiencia unificada.</p>
+        Su visión es ofrecer a los usuarios la libertad de jugar lo que quieran, donde quieran y como quieran, sin
+        importar
+        el dispositivo. En conjunto, este ecosistema busca que tu biblioteca de juegos, tus progresos y tus amigos te
+        acompañen en cualquier dispositivo compatible, manteniendo una experiencia unificada.</p>
     </section>
   </main>
 
   <footer class="xbox-footer">
 
-  <div class="seguinos">
-    <h2>Seguinos</h2>
-    <div class="iconos">
-      <a href="https://whatsapp.com/channel/0029Va4J1hI5a248Y7hu6A2Y" target="_blank"><img src="./assets/whatsapp.png" alt=""></a>
-      <a href="https://www.tiktok.com/@xbox?lang=es" target="_blank"><img src="./assets/tik-tok.png" alt=""></a>
-      <a href="https://x.com/xbox" target="_blank"><img src="./assets/gorjeo.png" alt=""></a>
-      <a href="https://www.facebook.com/xbox/?locale=es_LA" target="_blank"><img src="./assets/facebook.png" alt=""></a>
-      <a href="https://www.instagram.com/xbox/?hl=es" target="_blank"><img src="./assets/logotipo-de-instagram.png" alt=""></a>
+    <div class="seguinos">
+      <h2>Seguinos</h2>
+      <div class="iconos">
+        <a href="https://whatsapp.com/channel/0029Va4J1hI5a248Y7hu6A2Y" target="_blank"><img src="./assets/whatsapp.png"
+            alt=""></a>
+        <a href="https://www.tiktok.com/@xbox?lang=es" target="_blank"><img src="./assets/tik-tok.png" alt=""></a>
+        <a href="https://x.com/xbox" target="_blank"><img src="./assets/gorjeo.png" alt=""></a>
+        <a href="https://www.facebook.com/xbox/?locale=es_LA" target="_blank"><img src="./assets/facebook.png"
+            alt=""></a>
+        <a href="https://www.instagram.com/xbox/?hl=es" target="_blank"><img src="./assets/logotipo-de-instagram.png"
+            alt=""></a>
+      </div>
     </div>
-  </div>
 
-  <div class="logo">
-    <img src="assets/logo xbox blanco.jpg" alt="Xbox logo">
-  </div>
-  <div class="derechos">
-    <h3>© 2025 - Sitio de Xbox - Todos los derechos reservados - Desarrollado por Agustin Ventrice</h3>
-  </div>
+    <div class="logo">
+      <img src="assets/logo xbox blanco.jpg" alt="Xbox logo">
+    </div>
+    <div class="derechos">
+      <h3>© 2025 - Sitio de Xbox - Todos los derechos reservados - Desarrollado por Agustin Ventrice</h3>
+    </div>
 
-</footer>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
-  </script>
+    </script>
+  <script src="js/buscador.js"></script>
 
 
 </body>

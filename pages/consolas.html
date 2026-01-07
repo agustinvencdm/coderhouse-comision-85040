@@ -34,16 +34,20 @@
                             <a class="nav-link " href="../pages/juegos.html">Juegos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./pages/consolas.html">Consolas</a>
+                            <a class="nav-link active" href="#">Consolas</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                         </li>
 
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    <form class="d-flex flex-column" role="search">
+                        <div class="d-flex">
+                            <input id="buscador" class="form-control me-2" type="search" placeholder="Buscar"
+                                aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </div>
+                        <span id="mensaje-busqueda"></span>
                     </form>
                 </div>
             </div>
@@ -58,10 +62,11 @@
                 <div class="xboxs"><a href="https://www.xbox.com/es-ar/consoles/xbox-series-s?xr=shellnav"
                         target="_blank"><img src="../assets/xbox series S.jpg" alt=""></a></div>
                 <h2>Xbox Series S</h2>
-                <p>La Xbox Series S es la consola más compacta y económica de la nueva generación. Está pensada para
+                <p class="contenido">La Xbox Series S es la consola más compacta y económica de la nueva generación.
+                    Está pensada para
                     jugar en digital, con gran velocidad de carga gracias a su SSD y soporte para 1440p con reescalado a
                     4K. Es silenciosa, eficiente y perfecta para quienes buscan rendimiento a buen precio.</p>
-                <ul>
+                <ul class="contenido">
                     <li>Resolución: 1440p (reescalado a 4K)</li>
                     <li>Almacenamiento: SSD 512 GB NVMe</li>
                     <li>CPU: AMD Zen 2 8 núcleos a 3.6 GHz</li>
@@ -77,10 +82,11 @@
                 <div class="xboxs"><a href="https://www.xbox.com/es-ar/consoles/xbox-series-x?xr=shellnav"
                         target="_blank"><img src="../assets/xbox series x.png" alt=""></a></div>
                 <h2>Xbox Series X</h2>
-                <p>La Xbox Series X es la consola más potente de Microsoft. Diseñada para jugar en 4K reales, ofrece
+                <p class="contenido">La Xbox Series X es la consola más potente de Microsoft. Diseñada para jugar en 4K
+                    reales, ofrece
                     tiempos de carga mínimos, gráficos de alta calidad y un rendimiento superior para juegos exigentes.
                     Es ideal para quienes buscan la mejor experiencia next-gen.</p>
-                <ul>
+                <ul class="contenido">
                     <li>Resolución: 4K nativos (hasta 8K)</li>
                     <li>Almacenamiento: SSD 1 TB NVMe</li>
                     <li>CPU: AMD Zen 2 8 núcleos a 3.8 GHz</li>
@@ -122,7 +128,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
-    </script>
+        </script>
+    <script src="../js/buscador.js"></script>
+
 
 
 </body>

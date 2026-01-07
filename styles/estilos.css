@@ -1,6 +1,12 @@
 @charset "UTF-8";
+/* scss/_resaltado.scss */
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+.resaltado {
+  background: rgb(255, 255, 0);
+  color: black;
+}
+
 .conjuntoimg {
   display: flex;
   justify-content: center;
@@ -239,7 +245,7 @@ a {
 }
 
 .imagenfondo {
-  background-image: url(../assets/fondo\ suscripciones.png);
+  background-color: #010d01;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -282,6 +288,13 @@ a {
 
 .subtitulo {
   color: white;
+}
+
+#mensaje-busqueda {
+    display: block;
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
